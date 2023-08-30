@@ -1,0 +1,57 @@
+;               COAL PROJECT - GRAND PRIX CIRCUIT GAME IMPLEMENTATION
+; MEMBERS:  SYED MUHAMMAD ANAS NAUMAN    21L-5230 
+;           SAAD ASIF                    21L-7532  
+; SECTION:  3-B
+
+******************************************************************************
+********************************GAME RULES************************************
+******************************************************************************
+
+# RACE TRACK IS DIVISIONED INTO ROUTES AS FOLLOWS:
+
+                                      ROUTE B
+                             -----------------------
+                            |               |      |
+                            |               |      |
+                            |               |      |
+                            |               |      | 
+                  ROUTE A   |       ROUTE S |      |   ROUTE C
+                            |               |      |
+                            |               |      |
+                            |               |      |
+                            |               |      |
+                            |_______________|______|
+                                      ROUTE D
+
+
+- TO TRAVEL ALONG ROUTE A and ROUTE C, USER HAS TO PRESS THE UP
+- ARROW KEY 15 TIMES TO REACH THE TURN. AFTER PRESSING UP KEY 15 TIMES,
+- USER SHOULD IMMEDIATELY PRESS THE RIGHT ARROW KEY TO PERFORM RIGHT TURN
+
+~ TO TRAVEL ALONG ROUTE B and ROUTE D, USER HAS TO PRESS THE UP
+~ ARROW KEY 27 TIMES TO REACH THE TURN. AFTER PRESSING UP KEY 27 TIMES,
+~ USER SHOULD IMMEDIATELY PRESS THE RIGHT ARROW KEY TO PERFORM RIGHT TURN
+
+$ IF USER PRESSES MORE THAN 15 KEYS ON ROUTE A or ROUTE C THEN THE CAR CRASHES
+$ AND IT WILL COST 10 SECONDS TO RESET THE CAR ON TRACK
+$ IF USER PRESSES MORE THAN 27 KEYS ON ROUTE B or ROUTE D THEN THE CAR CRASHES
+$ AND IT WILL COST 10 SECONDS TO RESET THE CAR ON TRACK
+
++ THE QUALIFYING ROUND ENDS AFTER 3 LAPS OF THE CIRCUIT IS COMPLETED BY USER
++ KEEP TRACK OF RPM METER ON DASHBOARD AS COUNT OF LAPS COMPLETED BY USER
+
+" CAR CURSOR ON MAP WILL BE UPDATED AFTER EVERY 5 KEY PRESSES WHEN USER IS ON
+" EITHER OF THE ROUTE A or ROUTE C
+
+^ CAR CURSOR ON MAP WILL BE UPDATED AFTER EVERY 3 KEY PRESSES WHEN USER IS ON
+^ EITHER OF THE ROUTE B or ROUTE D
+
+% THERE IS A SHORTCUT ROUTE FOR PLAYERS LABELLED ROUTE S TO PROVIDE ADVANTAGE TO
+% THE PLAYER. HOWEVER, LOCATING AND TRAVERSING THIS ROUTE IS UPTO THE PLAYER AND
+% RISK WILL REAP REWARD
+
+@ TIP: THE ONLY LEGAL TURNS ARE RIGHT TURNS, LEFT TURNS WILL ONLY COST YOU TIME
+
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////HAVE FUN  ENJOY THE GAME  *_*///////////////////////////
+//////////////////////////////////////////////////////////////////////////////
